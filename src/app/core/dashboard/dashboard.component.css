@@ -1,0 +1,17 @@
+:host {
+    flex: 1;
+    display: flex;
+    overflow-y: auto;
+}
+
+.space-and-files-num {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 15px 0;
+}
+
+.library-and-search {
+    flex: 1;
+    padding: 15px 15px 0;
+}

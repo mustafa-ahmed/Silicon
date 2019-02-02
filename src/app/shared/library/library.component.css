@@ -1,0 +1,39 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+.library-header {
+    margin-bottom: 7px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.library-row {
+    display: flex;
+    min-height: 40px;
+    margin-bottom: 7px;
+}
+
+.library-row-info {
+    background-color: #f9f9f9;
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+}
+
+.library-row>div {
+    flex: 1;
+    padding: 0 0 0 15px;
+}
+
+.library-h-cell {
+    display: flex;
+    align-items: center
+}
+
+.library-h-cell img {
+    margin-right: 5px;
+}

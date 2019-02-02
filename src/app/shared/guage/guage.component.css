@@ -1,0 +1,48 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 15px;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+    min-height: 218px;
+}
+
+.guage-container {
+    flex: 0 0 160px;
+    display: flex;
+    align-items: center;
+}
+
+.thin-border {
+    position: absolute;
+    height: 84px;
+    width: 84px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 2px solid black;
+    border-radius: 100%;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-unit-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.guage-number {
+    font-size: 23px;
+}
+
+.guage-unit {
+    font-size: 14px;
+    margin-bottom: 2px;
+}

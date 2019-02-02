@@ -1,1 +1,123 @@
 /* You can add global styles to this file, and also import other style files */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+.main-bg-color {
+    background-color: #2d323e;
+}
+
+.darker-bg-color {
+    background-color: #1e2129;
+}
+
+.white-font {
+    color: #ffffff;
+}
+
+.gray-font {
+    color: #8f9094;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    height: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    font-size: 13px;
+    height: 36px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.gauge {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 666em;
+    position: relative;
+    transform: scale(1.2);
+}
+
+.gauge::before, .gauge::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 14px solid #d83232;
+    border-radius: 666em;
+    display: none;
+}
+
+.gauge::before {
+    clip: rect(0, 100px, 100px, 50px);
+}
+
+.gauge::after {
+    clip: rect(0, 50px, 100px, 0);
+}
+
+.gauge[data-fill="25"]::before, .gauge[data-fill="50"]::before, .gauge[data-fill="75"]::before, .gauge[data-fill="100"]::before {
+    display: block
+}
+
+.gauge[data-fill="25"]::before {
+    clip: rect(0, 100px, 50px, 50px);
+}
+
+.gauge[data-fill="75"]::after, .gauge[data-fill="100"]::after {
+    display: block
+}
+
+.gauge[data-fill="75"]::after {
+    clip: rect(50px, 50px, 100px, 0);
+}
+
+.dash-card-header {
+    width: 100%;
+    padding: 0px 0px 15px 0px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.dash-card-footer {
+    font-size: 14px;
+    margin-top: 5px;
+}

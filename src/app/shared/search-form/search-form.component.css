@@ -1,0 +1,80 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-f-name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+:host>div.form-wrapper {
+    display: flex;
+    padding: 15px 20px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-size: 12.5px;
+}
+
+.control-container {
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.large-control {
+    flex: 2;
+    padding-right: 45px;
+}
+
+.small-control {
+    flex: 1;
+}
+
+.btn-search {
+    background-color: #ff625f;
+}
+
+.button-container {
+    padding: 0;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 5px;
+}
+
+.input-container input {
+    padding-left: 25px
+}
+
+.folder-word {
+    display: flex;
+    align-items: center;
+}
+
+.folder-word img {
+    margin-right: 6px;
+}
+
+.folder-word:first-child {
+    margin-right: 25px;
+}
+
+.upload-folder-word-container {
+    display: flex;
+}
+
+.reset-font {
+    font-size: initial;
+}

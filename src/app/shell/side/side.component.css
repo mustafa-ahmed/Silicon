@@ -1,0 +1,49 @@
+:host {
+    flex: 0 0 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-header {
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.side-header img.books-icon {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.side-username {
+    margin-bottom: 2px;
+}
+
+.side-email {
+    font-size: 12px;
+}
+
+.side-profile-pic {
+    position: absolute;
+    bottom: -33px;
+    border: 8px solid #2d323e;
+    border-radius: 100%;
+}
+
+.side-list-items {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.side-list-item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    height: 35px;
+}
+
+.side-item-icon {
+    margin-right: 20px;
+}
